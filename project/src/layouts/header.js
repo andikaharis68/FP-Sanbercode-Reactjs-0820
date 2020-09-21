@@ -143,27 +143,27 @@ const Header = () => {
               <div className="hvr">
                 {user && (
                   <RouterLink style={{ textDecoration: 'none' }} to="/movies-editor">
-                    <Button color="inherit">Movie List Editor</Button>
+                    <Button style={{ color: "white" }} >Movie List Editor</Button>
                   </RouterLink>
                 )}
               </div>
               <div className="hvr">
                 {user && (
                   <RouterLink style={{ textDecoration: 'none' }} to="/games-editor">
-                    <Button style={{ marginRight: "20px" }} color="inherit">Game List Editor</Button>
+                    <Button style={{ marginRight: "20px", color: "white" }} >Game List Editor</Button>
                   </RouterLink>
                 )}
               </div>
               <div className="hvr">
                 {user === null && (
                   <RouterLink style={{ textDecoration: 'none' }} to="/login">
-                    <Button color="inherit">Login</Button>
+                    <Button >Login</Button>
                   </RouterLink>
                 )}
               </div>
               <div className="hvr">
                 {user && (
-                  <Button onClick={handleLogout} color="inherit">
+                  <Button onClick={handleLogout} >
                     Logout
                   </Button>
                 )}

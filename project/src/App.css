@@ -38,6 +38,7 @@
 }
 .hvr{
   opacity: 80%;
+  color:white;
 }
 .hvr:hover{
    border-left: 2px solid yellow; 
